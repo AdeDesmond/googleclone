@@ -1,7 +1,11 @@
 import React from "react";
-
+import HomeHeader from "@/components/HomeHeader";
 function HomePage() {
-  return <div>page</div>;
+  return (
+    <>
+      <HomeHeader />
+    </>
+  );
 }
 
 export default HomePage;
